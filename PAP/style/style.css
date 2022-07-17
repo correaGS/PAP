@@ -1,0 +1,122 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+.content{ display:table; flex:1; height: 100%; min-height: 100%;}
+.center{ display: table-cell; vertical-align: middle;}
+footer{bottom: 0; width: 100%; margin-top: 0;}
+.flex-wrapper { display: flex; min-height: 100vh; min-width:100%; flex-direction: column; justify-content: space-between;}
+html {overflow-x:hidden; overflow-y: auto; scroll-behavior: smooth;}
+html, body {padding:0;margin:0; height: 100%; min-width: 100%;}
+/*body{min-height: 100%; display: flex; flex-direction: column;}*/
+img {width:400px; max-width: 100%; height: auto;}
+a, a:hover, a:active, a:visited, a:focus {text-decoration:none; color: inherit;}
+.responsive {display:block;overflow-x:auto}
+.container:after, .container:before, .panel:after,.panel:before, .row-padding:after,.row-padding:before {content:"";display:table;clear:both;}
+.container, .panel {padding:0.01em 16px}
+.section, .code {margin-top:16px!important;margin-bottom:16px!important}
+.panel {margin-top:16px;margin-bottom:16px} 
+.card, .card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.card-4,.hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.bar-block, .center, .bar-item {text-align:center} 
+.block {display:block;width:100%}
+.justify {text-align:justify!important}
+.center {text-align:center!important}
+.margin {margin:16px!important}
+.tiny{font-size:10px!important}
+.small{font-size:12px!important}
+.medium{font-size:15px!important}
+.large{font-size:18px!important}
+.xlarge{font-size:24px!important}
+.xxlarge{font-size:36px!important}
+.xxxlarge{font-size:48px!important}
+.jumbo{font-size:64px!important}
+.row-padding,.row-padding>.half,.row-padding>.third,.row-padding>.twothird,.row-padding>.threequarter,.row-padding>.quarter,.row-padding>.col{padding:0 8px}
+.padding-small{padding:4px 8px!important}
+.padding{padding:8px 16px!important}
+.padding-large{padding:12px 24px!important}
+.padding-16{padding-top:16px!important;padding-bottom:16px!important}
+.padding-24{padding-top:24px!important;padding-bottom:24px!important}
+.padding-32{padding-top:32px!important;padding-bottom:32px!important}
+.padding-48{padding-top:48px!important;padding-bottom:48px!important}
+.padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.content,.auto{margin-left:auto;margin-right:auto}
+.content{max-width:980px}
+.auto{max-width:1140px} @media (max-width:1205px){.auto{max-width:95%}} @media (max-width:992px){.auto{max-width:100%}}
+.col, .half,.third,.twothird,.threequarter,.quarter{float:left;width:100%}
+@media (min-width:601px){.quarter{width:24.99999%} .third{width:33.33333%} .w3-half{width:49.99999%} .w3-twothird{width:66.66666%} .w3-threequarter{width:74.99999%}
+.text-grey, .hover-text-grey:hover {color:#757575 !important}
+.text-pink, .hover-text-pink:hover {color:#e91e63 !important}
+.text-purple, .hover-text-purple:hover {color:#9c27b0 !important}
+.text-deep-purple, .hover-text-deep-purple:hover {color:#673ab7 !important}
+.text-red, .hover-text-red:hover {color:#f44336 !important}
+.text-green, .hover-text-green:hover {color:#4CAF50 !important}
+.text-white, .hover-text-white:hover {color:#fff !important}
+.text-black,.hover-text-black:hover {color:#000 !important}
+.round-small {border-radius:2px}
+.round {border-radius:4px}
+.round-large {border-radius:8px}
+.round-xlarge {border-radius:16px}
+.round-xxlarge {border-radius:32px}
+.image {max-width:100%;height:auto} img {vertical-align:middle} a {color:inherit}
+.circle {border-radius:50%}
+.input {padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
+.select {padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
+.dropdown-click, .dropdown-hover {position:relative;display:inline-block;cursor:pointer}
+.dropdown-hover:hover .dropdown-content {display:block}
+.dropdown-hover:first-child, .dropdown-click:hover {background-color:#ccc;color:#000}
+.dropdown-hover:hover > .button:first-child, .dropdown-click:hover > .button:first-child {background-color:#ccc;color:#000}
+.dropdown-content {cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1}
+.check, .radio {width:24px;height:24px;position:relative;top:6px}
+.sidebar {height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+.button:hover{color:#000!important;background-color:#ccc!important}
+.dropdown-hover .mobile, .dropdown-hover .mobile .btn, .dropdown-hover .mobile .button, .dropdown-click .mobile, .dropdown-click .mobile .btn, .dropdown-click .mobile .button{width:100%}}
+.btn, .button {border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.btn:hover {box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.btn, .button {-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.disabled, .btn:disabled, .button:disabled {cursor:not-allowed;opacity:0.3}
+.disabled *, :disabled * {pointer-events:none}
+.btn.disabled:hover, .btn:disabled:hover {box-shadow:none}
+.badge, .tag {background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}
+.badge {border-radius:50%}
+.right-align {text-align:right!important}
+.left-align {text-align:left!important}
+.right {float:right!important}
+.left {float:left!important}
+.border-0 {border:0!important}
+.border {border:1px solid #ccc!important}
+.opacity, .hover-opacity:hover {opacity:0.60}
+.opacity-off, .hover-opacity-off:hover {opacity:1}
+.opacity-max {opacity:0.25}
+.opacity-min {opacity:0.75}
+.top, .bottom{position:fixed;width:100%;z-index:1}
+.top{top:0}
+.bottom{bottom:0}
+.bar-block .dropdown-hover,.block .dropdown-click{width:100%}
+.bar-block .dropdown-hover .dropdown-content,.bar-block .dropdown-click .dropdown-content{min-width:100%}
+.bar-block .dropdown-hover .button,.bar-block .dropdown-click .button{width:100%;text-align:left;padding:8px 16px}
+.modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+.bar{width:100%;overflow:hidden}.center .bar{display:inline-block;width:auto}
+.bar .bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.bar .dropdown-hover,.bar .dropdown-click{position:static;float:left}
+.bar .button{white-space:normal}
+.bar-block .bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+.bar-block.center .bar-item{text-align:center}.block{display:block;width:100%}
+.mobile{display:block;width:100%!important}
+.hide{display:none!important}
+.show-block, .show {display:block!important}
+.show-inline-block{display:inline-block!important}
+.hide-small{display:none!important}
+@media (min-width:993px){.hide-large {display:none!important} .sidebar.collapse {display:block!important}}
+@media (max-width:992px) and (min-width:601px){.hide-medium {display:none!important}}
+.table,.table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.w3-table-all{border:1px solid #ccc}
+.bordered tr,.w3-table-all tr{border-bottom:1px solid #ddd}.w3-striped tbody tr:nth-child(even){background-color:#f1f1f1}
+.table-all tr:nth-child(odd) {background-color:#fff}
+.table-all tr:nth-child(even) {background-color:#f1f1f1}
+.hoverable tbody tr:hover, .ul.hoverable li:hover {background-color:#ccc}
+.centered tr th, .centered tr td {text-align:center}
+.table td, .table th, .table-all td ,.table-all th {padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
+.table th:first-child, .table td:first-child, .table-all th:first-child, .table-all td:first-child {padding-left:16px}
+.code, .codespan{font-family:Consolas,"courier new";font-size:16px}
+.code{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
+.codespan{color:crimson;background-color:#f1f1f1;padding-left:4px;padding-right:4px;font-size:110%}
